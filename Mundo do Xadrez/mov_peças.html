@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <style>
+        body{
+            font-size: 10pt;
+        }
+        @font-face{
+            font-family: 'Harry P';
+            src:url('harry-potter.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
+        p {
+            text-align: justify;
+            text-indent: 30px;
+            font-size: 15pt;
+        }
+        header h1, h2{
+            font-family: 'Harry P';
+            font-size: 40pt;
+            text-align: center;
+            color: rgb(18, 1, 34);
+            padding-left: 5px;
+            margin: 0px;
+        }
+
+        article h2{
+            font-family:'Harry P';
+            font-size: 30pt;
+            text-align: center;
+            color: rgb(18, 1, 34);
+        }
+
+        article {
+            margin-bottom: 400px;
+        }
+    </style>
+  </head>
+  <body>
+    <header style="height:300px;">
+      <h1> Movimentos: </h1>
+      <h2> Clique em qualquer casa ocupada </h2>
+    </header>
+    <article id="peao">
+      <h2><b> Peão: </b></h2>
+      <p>São as peças mais fracas do jogo. Seu primeiro movimento pode ser uma ou duas casas para frente, depois disso só andam apenas uma casa para frente. Mas seu movimento de captura é diagonal e para frente, nunca para trás.</p>
+    </article>
+    <article id="Torre">
+      <h2><b> Torre: </b></h2>
+      <p>As torres podem se mover tanto na vertical quanto na horizontal e quantas casas quiserem. Movimento de captura igual. </p>
+    </article>
+    <article id="Cavalo">
+      <h2><b> Cavalo: </b></h2>
+      <p>Seu movimento é em formato de L, andando duas casas e depois uma lateral. É a única peça que pode se mover por cima das outras. Movimento de captura igual.</p>
+    </article>
+    <article id="Bispo">
+      <h2><b> Bispo: </b></h2>
+      <p>Essa peça anda quantas casas quiser também, porém apenas na diagonal. Movimento de captura igual.</p>
+    </article>
+    <article id="Rainha">
+      <h2><b> Rainha: </b></h2>
+      <p>É a peça mais forte. Ela anda para todas as direções e o número de casas que quiser, não passando por cima de suas peças. Movimento de captura igual.</p>
+    </article>
+    <article id="Rei">
+      <h2><b> Rei: </b></h2>
+      <p> O rei é a peça chave do jogo, mas tem um movimento limitado se tornando a mais fraca. Ele anda apenas uma casa por vez e, assim como a dama, em todas as direções, mas nunca pode se colocar em Xeque. Movimento de captura igual. </p>
+    </article>
+  </body>
+
+</html>

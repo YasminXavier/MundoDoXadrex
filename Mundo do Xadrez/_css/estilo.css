@@ -1,0 +1,193 @@
+@font-face{
+  font-family: "harry pitter";
+  src:url("harry-potter.ttf");
+
+}
+/* configuração do elemento body */
+body{    
+  background-color: rgb(18, 1, 34); /* cor de fundo */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: rgb(18, 1, 34); /* cor do texto */
+} 
+
+
+/* configuração do elemento com id conteúdo */
+#conteudo {
+  background-color: #fff; /* cor de fundo */
+  width: 900px; /* largura */
+  margin: 0px auto 0px auto;/* espaçamento externo*/
+  /* caixa com sombra */
+  box-shadow: 0px 0px 25px rgb(18, 1, 34);
+  padding: 10px /* espaçamento interno */
+}
+
+/*  configuração do elemento com id cabeçalho */
+#cabecalho{
+  height: 150px; /* altura */
+  border-bottom: 1px solid; /* linha embaixo */
+  /* imagem de fundo */
+  background: url(../_fotos-xadrez/images.jpg) no-repeat 170px 0px;
+}
+
+/* configuração da lista do menu */
+#menu ul{
+    list-style: none; /* some os marcadores da lista */
+    text-transform: uppercase; /* letra maiúscula */
+    float: right; /* flutuar para direita */
+}
+
+#menu ul li {
+  font-family: "harry pitter";
+  font-size: 15pt;
+  display: inline-block; /* itens aparecem tudo na mesma linha */ /* altera a cor de fundo */
+  padding: 10px; /* espaçamento interno */
+  margin: 2px; /* espaçamento externo */
+}
+
+#menu ul li:hover {
+  background-color: rgb(18, 1, 34); /* altera a cor de fundo */
+  color: #fff; /* altera cor */
+  transition: 1s; /* 1s para transição de background */
+}
+
+#menu ul a{
+  color: rgb(18, 1, 34); /* cor*/
+  text-decoration: none; /* link sem sublinhado */
+}
+
+#movimento{
+  text-decoration: none;
+}
+
+#icone {
+  position: relative; /* posição atual da foto */
+  top: -30px; /* desloca para cima < 0 */
+  left: 720px; /* desloca para direita */
+}
+
+/* configura h1 do header */
+#cabecalho h1{
+  font-family: "harry pitter";
+  font-size: 40pt;
+  color:rgb(18, 1, 34);
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+/* configura h2 do header */
+#cabecalho h2{
+  font-family: "harry pitter";
+  font-size: 25pt;
+  color: rgb(18, 1, 34);
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+#corpo{
+  width: 500px; /* largura */
+  float: left;  /* flutua a esquerda */
+  border-right: 1px solid rgb(18, 1, 34); /* borda a direita */
+  padding: 0px 15px 15px 0px;
+}
+
+#noticia h2{
+  font-size: 15pt; /* tamanho da fonte */
+  color:rgb(18, 1, 34); /* cor do texto */
+  text-align: center;
+}
+#lateral {
+  border: 5px solid rgb(18, 1, 34);
+  float: right; /* flutua a direita */
+  width: 350px; /* largura */
+  padding: 10px; /* espaçamento interno */
+  background-color:#fff;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#rodape {
+  clear: both; /* coloca conteúdo no espaço disponível abaixo e esquerda */
+  border-top: 1px solid #606060;
+}
+
+#rodape p{
+  font-family: "harry pitter";
+  font-size: 18pt;
+  padding-top: 10px; /* espaçamento interno */
+  text-align: center; /* alinhamento centralizado */
+}
+
+.hp{
+  font-family: "harry pitter";
+  font-size: 25pt;
+}
+
+#noticia h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  color: rgb(18, 1, 34)0;
+}
+
+#noticia h1{
+  font-family: "harry pitter";
+  font-size: 30pt;
+  text-align: center;
+  color: rgb(18, 1, 34);
+}
+
+p{
+  text-align: justify;
+  text-indent: 50px;
+}
+
+
+#lateral h2{
+  font-family: "harry pitter";
+  font-size: 30pt;
+  text-align: center;
+  color: rgb(18, 1, 34);
+ 
+}
+
+.foto{
+  position: relative;
+  border: 8px solid rgb(18, 1, 34);
+  box-shadow: 0px 0px 0px 10px rgb(40, 2, 75);
+}
+
+.foto img{
+  width: 100%;
+  height: 100%;
+} 
+
+#frame {
+  width: 380px;
+  height: 280px;
+  border: none;
+}
+
+.pecas img{
+  width: 25%;
+  height: 25%;
+}
+
+#pecas {
+  font-family: "harry pitter";
+  font-size: 25pt;
+}
+table,td,tr,th{
+  border: 1px solid rgb(18, 1, 34);
+  text-align: center;
+  padding: 2px;
+}
+
+#mov{
+  border: none;
+}
+
+#cena{
+  position: relative;
+  left: 75px;
+}
